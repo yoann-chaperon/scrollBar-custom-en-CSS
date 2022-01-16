@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Torus Notched";
+    src: url("./font/torus.ttf"
+        );
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Torus Notched";
+    font-size: 180px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.content {
+    padding: 5vw 10vw;
+    font-size: 25px;
+    text-align: justify;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.scrollbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 0;
+    opacity: 0;
+    background: linear-gradient(to top, #99B6e6, #4364F7, #ADD3FF);
+}
+.clickscrollbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 100%;
+    background: rgba(170, 170, 170, 0.356);
+}
